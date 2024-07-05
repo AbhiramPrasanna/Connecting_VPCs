@@ -35,8 +35,8 @@ Ensure that you have the Google Cloud SDK installed and authenticated:
 Clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/AbhiramPrasanna/Connecting_VPCs.git
+cd Connecting_VPCs
 ```
 
 ### 3. Configure Terraform Variables
