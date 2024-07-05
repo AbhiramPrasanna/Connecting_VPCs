@@ -77,5 +77,4 @@ Enter the necessary variable values if prompted (e.g., project ID and shared sec
 - [Google Cloud VPC Documentation](https://cloud.google.com/vpc/docs)
 - [Google Cloud VPN Documentation](https://cloud.google.com/vpn/docs)
 - [Terraform GCP Provider Documentation](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
-```
 
