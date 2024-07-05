@@ -1,4 +1,7 @@
-# Creating VPCs in Different Regions and Connecting Them Using VPN Tunnel with Terraform-GCP
+
+
+```markdown
+# Creating VPCs in Different Regions and Connecting Them Using VPN Tunnel with Terraform
 
 This repository provides a Terraform-based solution to create VPCs in different regions on Google Cloud and connect them using a VPN tunnel.
 
@@ -27,40 +30,54 @@ Ensure that you have the Google Cloud SDK installed and authenticated:
    ```sh
    gcloud init
    gcloud auth application-default login
-2. Clone the Repository
+   ```
+
+### 2. Clone the Repository
+
 Clone this repository to your local machine:
 
-sh
-Copy code
+```sh
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-3. Configure Terraform Variables
-You can configure the Terraform variables directly in the main.tf file or by creating a terraform.tfvars file:
+```
 
-Create a terraform.tfvars file with the following content:
+### 3. Configure Terraform Variables
 
-=project_id   = "your-project-id"
+You can configure the Terraform variables directly in the `main.tf` file or by creating a `terraform.tfvars` file:
+
+Create a `terraform.tfvars` file with the following content:
+
+```hcl
+project_id   = "your-project-id"
 region1      = "us-central1"
 region2      = "europe-west1"
 shared_secret = "your-shared-secret"
+```
 
 Replace the placeholder values with your actual Google Cloud project ID and shared secret.
 
-4. Initialize Terraform
+### 4. Initialize Terraform
+
 Initialize Terraform in your project directory:
 
-sh
-Copy code
+```sh
 terraform init
-5. Apply the Terraform Configuration
+```
+
+### 5. Apply the Terraform Configuration
+
 Apply the Terraform configuration to create the VPCs and VPN tunnel:
 
-sh
-Copy code
+```sh
 terraform apply
+```
+
 Enter the necessary variable values if prompted (e.g., project ID and shared secret).
 
-Additional Resources
-Google Cloud VPC Documentation
-Google Cloud VPN Documentation
-Terraform GCP Provider Documentation
+### Additional Resources
+
+- [Google Cloud VPC Documentation](https://cloud.google.com/vpc/docs)
+- [Google Cloud VPN Documentation](https://cloud.google.com/vpn/docs)
+- [Terraform GCP Provider Documentation](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
+```
+
