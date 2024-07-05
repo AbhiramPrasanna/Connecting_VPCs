@@ -1,6 +1,4 @@
 
-
-```markdown
 # Creating VPCs in Different Regions and Connecting Them Using VPN Tunnel with Terraform
 
 This repository provides a Terraform-based solution to create VPCs in different regions on Google Cloud and connect them using a VPN tunnel.
