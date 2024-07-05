@@ -39,12 +39,11 @@ You can configure the Terraform variables directly in the main.tf file or by cre
 
 Create a terraform.tfvars file with the following content:
 
-hcl
-Copy code
-project_id   = "your-project-id"
+=project_id   = "your-project-id"
 region1      = "us-central1"
 region2      = "europe-west1"
 shared_secret = "your-shared-secret"
+
 Replace the placeholder values with your actual Google Cloud project ID and shared secret.
 
 4. Initialize Terraform
